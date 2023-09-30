@@ -7,15 +7,15 @@ function Post ({post}){
         textAlign: 'center',
         border: `3px solid`,
         margin: "10px auto",
-        width: "80%"
+        width: "50%"
     }
 
 
     return <div style={div}>
         <Link to={`/post/${post.id}`}>
-            <h1>{post.position}</h1>
-            <h2>{post.company_name}</h2>
-            <h2>{post.job_description}</h2>
+            <h2>{post.position}</h2>
+            <h3>{post.company_name}</h3>
+            <h3>{post.job_description}</h3>
             {/* <h2>{post.applied}</h2>
             <h2>{post.type_of_resume_sent}</h2>
             <h2>{post.date_applied}</h2>
