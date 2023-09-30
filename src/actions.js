@@ -7,7 +7,7 @@ export const createAction = async({request}) => {
     const formData = await request.formData();
 
     // construct the body for our api call
-    const newNewjob = {
+    const newNewJob = {
         position: formData.get("position"),
         company_name: formData.get("company_name"),
         job_description: formData.get("job_description"),
@@ -27,7 +27,7 @@ export const createAction = async({request}) => {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(newNewjob)
+        body: JSON.stringify(newNewJob)
     })
 
     // redirect to the index page
