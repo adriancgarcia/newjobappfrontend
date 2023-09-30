@@ -57,7 +57,7 @@ function Show (props){
                         <input type="text" name="application_origin" placeholder="Where did you find application" defaultValue={post.application_origin}/>
                         
                         <h3>Did you send a thank you note?</h3><input type="checkbox" name="thankyou_sent" placeholder="Thank you note sent" defaultValue={post.thankyou_sent}/>
-                        
+                        <br></br>
                         <button>Update Job</button>
                     </fieldset>
                 </Form>
