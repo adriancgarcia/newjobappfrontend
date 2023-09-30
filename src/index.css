@@ -5,7 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://i.imgur.com/4j7RyHw.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
+
+h1, h2, h3 {
+  color: white;
+}
+
+input {
+  color: white;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

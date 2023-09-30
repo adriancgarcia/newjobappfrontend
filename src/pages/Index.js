@@ -1,7 +1,11 @@
 import Post from '../components/Post';
 import {useLoaderData, Form} from 'react-router-dom';
+import "../styles.css";
 
 function Index (props){
+    // const heroStyle = {
+    //     backgroundImage: 'url(' + requestAnimationFrame('https://i.imgur.com/kCmlEAO.jpeg') + ')'
+    // }
 
     // fetch the loaderdata using the useLoaderData hook
     const newjobs = useLoaderData()
@@ -22,12 +26,13 @@ function Index (props){
                 <label htmlFor="job_description">Job Description</label>
                 <input type="text" name="job_description" id="jobDescription" placeholder="Job Description"/>
                 
-                <h3>Did you apply?</h3><input type="checkbox" id="applied" name="applied" placeholder="Applied"/>
+                <h3>Did you apply?</h3><input type="checkbox" id="applied" className="applybox" name="applied" placeholder="Applied"/>
 
                 <label htmlFor="type_of_resume_sent">Type of resume sent</label>
                 <input type="text" name="type_of_resume_sent" placeholder="ATS or Design Resume"/>
                 
-                <h3>Date Applied</h3><input type="date" name="date_applied" placeholder="Date Applied"/>
+                <label htmlFor="date_applied" id="cblabel"/>
+                <h3>Date Applied</h3><input type="date" name="date_applied" id="date_applied" placeholder="Date Applied"/>
                 
                 <label htmlFor="hiring_manager">Hiring Manager</label>
                 <input type="text" name="hiring_manager" placeholder="Name of Hiring Manager"/>
@@ -41,6 +46,7 @@ function Index (props){
                 <label htmlFor="application_origin">Origin of Job Posting</label>
                 <input type="text" name="application_origin" placeholder="Where did you find job posting?"/>
                 
+                <label htmlFor="thankyou_sent" id="cblabel"/>
                 <h3>Did you send a thank you note?</h3><input type="checkbox" id="thankyou_sent" name="thankyou_sent" placeholder="Thank you note sent"/>
                 
                 <button>Create New Job Application</button>

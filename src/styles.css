@@ -1,0 +1,91 @@
+.body {
+    background-image: url("https://i.imgur.com/D6eRMiH.jpeg");
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+}
+
+/* h1 {
+    color: black;
+}
+
+h2 { 
+    color: black;
+} */
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    backdrop-filter: blur(20px);
+    font-size: 30px;
+  }
+  
+  a, .jobButtons {
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+  }
+
+  /* input [type=checkbox], input[type=radio] {
+    vertical-align: middle;
+    position: relative;
+  } */
+
+
+  .cblabel {
+    display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  }
+
+  .date_applied {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+  }
+
+  .applied input {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+  }
+
+  /* input {
+    margin: 0 20px 0 20px;
+  } */
+
+  button {
+    margin: 0px 0 0 0;
+    background-color: yellow;
+    color: black;
+  }
+
+  label {
+    color: white;
+  }

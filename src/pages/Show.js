@@ -1,12 +1,13 @@
 import {Link, useLoaderData, Form} from 'react-router-dom';
+import "../styles.css";
 
 function Show (props){
     const post = useLoaderData()
 
     const div = {
         textAlign: "center",
-        border: "3px solid green",
-        width: "80%",
+        border: "3px white",
+        width: "50%",
         margin: "30px auto"
     }
 
