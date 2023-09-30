@@ -82,12 +82,18 @@ h2 {
 
   button {
     margin: 0px 0 0 0;
-    background-color: #FFCE54;
+    background-color: #005281;
     opacity: 0.9;
     margin: 15px;
-    color: black;
+    color: white;
+    border: white;
   }
 
   label {
     color: white;
   }
+
+  /* input {
+    align-items: center;
+    margin: 0 100px 0 100px;
+  } */
