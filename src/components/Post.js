@@ -7,7 +7,8 @@ function Post ({post}){
         textAlign: 'center',
         border: `3px solid`,
         margin: "10px auto",
-        width: "50%"
+        width: "50%",
+        color: 'white'
     }
 
 
