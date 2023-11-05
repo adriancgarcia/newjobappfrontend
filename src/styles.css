@@ -38,56 +38,66 @@ h2 {
     font-size: 30px;
   }
   
-  a, .jobButtons {
-    margin: 20px;
-    padding: 10px;
-    /* border: 1px solid black; */
-  }
+a, .jobButtons {
+  margin: 20px;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
 
-  /* input [type=checkbox], input[type=radio] {
-    vertical-align: middle;
-    position: relative;
-  } */
+/* input [type=checkbox], input[type=radio] {
+  vertical-align: middle;
+  position: relative;
+} */
 
-  .form {
-    color: white;
-    width: 50%;
-    margin: 0 auto;
-  }
+.form {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
 
-  .cblabel {
-    display: block;
-    padding-left: 15px;
-    text-indent: -15px;
-    color: white;
-  }
+.form h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
 
-  .date_applied {
-    width: 15px;
-    height: 15px;
-    padding: 0;
-    margin: 0;
-    vertical-align: bottom;
-    position: relative;
-    top: -1px;
-  }
+.cblabel {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  color: white;
+}
+
+.date_applied {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+input {
+  color: white;
+}
 
 input[type=date] {
-    color: #606c76;
+    /* color: #606c76; */
+    color: white;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   border-radius: 4px;
   margin-right: 2px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   filter: invert(0.8);
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator:hover {
   opacity: 1
 }
-
 
 .applied input {
   width: 15px;
@@ -120,11 +130,23 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     color: white;
   }
 
-  h3 {
+  .appliedJobs {
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .updateApp {
+    margin-top: 40px;
+  }
+
+  /* h3 {
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-  }
+  } */
 
 
   /* input {

@@ -7,27 +7,30 @@ function Show (props){
     const div = {
         textAlign: "center",
         border: "3px white",
-        width: "50%",
+        // width: "50%",
         margin: "30px auto"
     }
 
     return (
         <div style={div}>
-            <h2>{post.position}</h2>
-            <h3>{post.company_name}</h3>
-            <h3>{post.job_description}</h3>
-            <h3>{post.applied}</h3>
-            <h3>{post.type_of_resume_sent}</h3>
-            <h3>{post.date_applied}</h3>
-            <h3>{post.hiring_manager}</h3>
-            <h3>{post.hiring_manager_email}</h3>
-            <h3>{post.interview_status}</h3>
-            <h3>{post.application_origin}</h3>
-            <h3>{post.thankyou_sent}</h3>
-            <div style ={{ textAlign: "center" }}>
+            <div class="appliedJobs">
+                <h1>Jobs Applied To:</h1>
+                <h2>{post.position}</h2>
+                <h3>{post.company_name}</h3>
+                <h3>{post.job_description}</h3>
+                <h3>{post.applied}</h3>
+                <h3>{post.type_of_resume_sent}</h3>
+                <h3>{post.date_applied}</h3>
+                <h3>{post.hiring_manager}</h3>
+                <h3>{post.hiring_manager_email}</h3>
+                <h3>{post.interview_status}</h3>
+                <h3>{post.application_origin}</h3>
+                <h3>{post.thankyou_sent}</h3>
+            </div>
+            <div style ={{ textAlign: "center" }} class="updateApp">
                 <h1>Update Job Application</h1>
                 <Form method="post" action= {`/update/${post.id}`}>
-                    <fieldset>
+                    <fieldset class="form">
                         <label htmlFor="position">Job Position</label>
                         <input type="text" name="position" placeholder="Job Position" defaultValue={post.position}/>
                         
