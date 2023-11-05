@@ -16,7 +16,7 @@ function Index (props){
     <div style={{textAlign: "center"}}>
         <h2>Create a New Job</h2>
         <Form method="post" action="/create">
-        <fieldset>
+        <fieldset class="form">
                 <label htmlFor="position">Job Position</label>
                 <input type="text" name="position" placeholder="Job Position"/>
                 

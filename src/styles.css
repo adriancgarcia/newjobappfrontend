@@ -49,11 +49,17 @@ h2 {
     position: relative;
   } */
 
+  .form {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+  }
 
   .cblabel {
     display: block;
-  padding-left: 15px;
-  text-indent: -15px;
+    padding-left: 15px;
+    text-indent: -15px;
+    color: white;
   }
 
   .date_applied {
@@ -66,15 +72,36 @@ h2 {
     top: -1px;
   }
 
-  .applied input {
-    width: 15px;
-    height: 15px;
-    padding: 0;
-    margin: 0;
-    vertical-align: bottom;
-    position: relative;
-    top: -1px;
-  }
+input[type=date] {
+    color: #606c76;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+}
+
+
+.applied input {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+  /* input[type=date]:invalid::-webkit-datetime-edit {
+    color: #999;
+} */
 
   #placeholder {
     color: white;
@@ -92,6 +119,13 @@ h2 {
   label {
     color: white;
   }
+
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
 
   /* input {
     align-items: center;

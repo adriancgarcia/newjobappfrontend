@@ -16,11 +16,6 @@ h1, h2, h3 {
   color: white;
 }
 
-input {
-  color: white;
-  width: 60%;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
