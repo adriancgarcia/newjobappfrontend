@@ -5,7 +5,7 @@ function Post ({post}){
 
     const div = {
         textAlign: 'center',
-        border: `3px solid`,
+        border: `1px solid`,
         borderRadius: '6px',
         margin: "0 auto",
         marginBottom:'15px',
