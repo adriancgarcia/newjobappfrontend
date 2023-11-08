@@ -10,7 +10,7 @@ function Post ({post}){
         margin: "0 auto",
         marginBottom:'15px',
         width: "80%",
-        padding: "10px",
+        padding: "15px",
         color: 'white'
     }
 
