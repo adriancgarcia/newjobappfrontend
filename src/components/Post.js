@@ -9,6 +9,7 @@ function Post ({post}){
         borderRadius: '6px',
         margin: "0 auto",
         marginBottom:'15px',
+        // marginTop: '20px',
         width: "80%",
         padding: "15px",
         color: 'white'
