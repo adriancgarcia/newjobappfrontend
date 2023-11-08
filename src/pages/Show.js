@@ -6,7 +6,7 @@ function Show (props){
 
     const div = {
         textAlign: "center",
-        border: "3px white",
+        border: "1px white",
         width: "100%",
         marginTop: '40px',
         margin: "0 auto",
