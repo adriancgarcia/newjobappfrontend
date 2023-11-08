@@ -120,6 +120,10 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     padding: 15px;
   }
 
+  .appliedJobs h3 {
+    font-size: 1.4em;
+  }
+
   .updateApp {
     /* margin: 0 auto; */
     margin-top: 40px;
