@@ -7,14 +7,15 @@ function Show (props){
     const div = {
         textAlign: "center",
         border: "3px white",
-        // width: "50%",
-        margin: "30px auto"
+        width: "100%",
+        marginTop: '40px',
+        margin: "0 auto",
+        // marginTop: '40px'
     }
 
     return (
         <div style={div}>
-            <div class="appliedJobs">
-                <h1>Jobs Applied To:</h1>
+            <div class="appliedJobs">    
                 <h2>{post.position}</h2>
                 <h3>{post.company_name}</h3>
                 <h3>{post.job_description}</h3>

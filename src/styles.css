@@ -5,14 +5,6 @@
     background-repeat: 'no-repeat';
 }
 
-/* h1 {
-    color: black;
-}
-
-h2 { 
-    color: black;
-} */
-
 .column {
     float: left;
     width: 50%;
@@ -39,19 +31,14 @@ h2 {
   }
   
 a, .jobButtons {
-  margin: 20px;
-  padding: 10px;
-  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding: 5px;
+  width: 100%;
 }
-
-/* input [type=checkbox], input[type=radio] {
-  vertical-align: middle;
-  position: relative;
-} */
 
 .form {
   color: white;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -83,7 +70,6 @@ input {
 }
 
 input[type=date] {
-    /* color: #606c76; */
     color: white;
 }
 
@@ -109,10 +95,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   top: -1px;
 }
 
-  /* input[type=date]:invalid::-webkit-datetime-edit {
-    color: #999;
-} */
-
   #placeholder {
     color: white;
  }
@@ -133,23 +115,21 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .appliedJobs {
     border: 1px solid white;
     border-radius: 6px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     padding: 15px;
   }
 
   .updateApp {
+    /* margin: 0 auto; */
     margin-top: 40px;
+    /* width: 100%; */
   }
 
-  /* h3 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  } */
-
-
-  /* input {
-    align-items: center;
-    margin: 0 100px 0 100px;
+  /* @media only screen and (max-width:600px) {
+    div {
+      margin: '0px auto 10px auto';
+      width: "80%";
+      padding: '10px';
+    }
   } */

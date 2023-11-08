@@ -6,8 +6,11 @@ function Post ({post}){
     const div = {
         textAlign: 'center',
         border: `3px solid`,
-        margin: "10px auto",
-        width: "50%",
+        borderRadius: '6px',
+        margin: "0 auto",
+        marginBottom:'15px',
+        width: "80%",
+        padding: "10px",
         color: 'white'
     }
 

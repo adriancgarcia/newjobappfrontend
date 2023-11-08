@@ -16,7 +16,7 @@ function Index (props){
     <div style={{textAlign: "center"}}>
         <h2>Create a New Job</h2>
         <Form method="post" action="/create">
-        <fieldset class="form">
+            <fieldset class="form">
                 <label htmlFor="position">Job Position</label>
                 <input type="text" name="position" placeholder="Job Position"/>
                 
@@ -53,6 +53,7 @@ function Index (props){
             </fieldset>
         </Form>
     </div>
+    <h1>Jobs Applied To:</h1>
     {newjobs.map((newjob) => <Post key={newjob.id} post={newjob}/>)}
 </>
 
