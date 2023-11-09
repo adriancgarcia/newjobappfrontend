@@ -38,7 +38,7 @@ function Index (props){
                 <input type="text" name="hiring_manager" placeholder="Name of Hiring Manager"/>
 
                 <label htmlFor="hiring_manager_email">Hiring Manager email</label>
-                <input type="email" name="hiring_manager_email" placeholder="manager@email.com"/>
+                <input type="text" name="hiring_manager_email" placeholder="manager@email.com"/>
                 
                 <label htmlFor="interview_status">Interview Status</label>
                 <input type="text" name="interview_status" placeholder="1st round, 2nd round, 3rd round"/>
