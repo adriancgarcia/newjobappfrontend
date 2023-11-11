@@ -15,7 +15,7 @@ function Show (props){
 
     return (
         <div style={div}>
-            <div class="appliedJobs">    
+            <div className="appliedJobs">    
                 <h2>{post.position}</h2>
                 <h3>{post.company_name}</h3>
                 <h3>{post.job_description}</h3>
@@ -28,10 +28,10 @@ function Show (props){
                 <h3>{post.application_origin}</h3>
                 <h3>{post.thankyou_sent}</h3>
             </div>
-            <div style ={{ textAlign: "center" }} class="updateApp">
+            <div style ={{ textAlign: "center" }} className="updateApp">
                 <h1>Update Job Application</h1>
                 <Form method="post" action= {`/update/${post.id}`}>
-                    <fieldset class="form">
+                    <fieldset className="form">
                         <label htmlFor="position">Job Position</label>
                         <input type="text" name="position" placeholder="Job Position" defaultValue={post.position}/>
                         

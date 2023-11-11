@@ -16,7 +16,7 @@ function Index (props){
     <div style={{textAlign: "center"}}>
         <h2>Create a New Job</h2>
         <Form method="post" action="/create">
-            <fieldset class="form">
+            <fieldset className="form">
                 <label htmlFor="position">Job Position</label>
                 <input type="text" name="position" placeholder="Job Position"/>
                 
@@ -41,10 +41,10 @@ function Index (props){
                 <input type="text" name="hiring_manager_email" placeholder="manager@email.com"/>
                 
                 <label htmlFor="interview_status">Interview Status</label>
-                <input type="text" name="interview_status" placeholder="1st round, 2nd round, 3rd round"/>
+                <input type="text" name="interview_status" placeholder="1st, 2nd, or 3rd round"/>
                 
                 <label htmlFor="application_origin">Origin of Job Posting</label>
-                <input type="text" name="application_origin" placeholder="Where did you find job posting?"/>
+                <input type="text" name="application_origin" placeholder="Where was job posted?"/>
                 
                 <label htmlFor="thankyou_sent" id="cblabel"/>
                 <h3>Did you send a thank you note?</h3><input type="checkbox" id="thankyou_sent" name="thankyou_sent" placeholder="Thank you note sent"/>

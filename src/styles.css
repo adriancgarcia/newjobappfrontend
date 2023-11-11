@@ -39,6 +39,7 @@ a, .jobButtons {
   margin: 0 auto;
   padding: 5px;
   width: 100%;
+  /* font-size: 1.5em; */
 }
 
 .form {
@@ -70,6 +71,11 @@ a, .jobButtons {
   top: -1px;
 }
 
+div .form {
+  color: white;
+  width: 80%;
+}
+
 input[type='color'],
 input[type='date'],
 input[type='datetime'],
@@ -89,6 +95,7 @@ select {
   color: white;
   font-size: 1.5em;
   padding: 20px;
+  /* width: 80%; */
 }
 
 input[type=date] {
@@ -96,13 +103,14 @@ input[type=date] {
     font-size: 1.5em;
     padding: 20px;
     text-transform: uppercase;
+    opacity: 0.6;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   border-radius: 4px;
   margin-right: 2px;
-  /* opacity: 0.6; */
+  opacity: 0.6;
   filter: invert(0.8);
   font-size: 1.3em;
 
@@ -121,17 +129,19 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   top: -1px;
 }
 
-#placeholder {
+/* #placeholder {
   color: white;
-}
+} */
 
 button {
-  margin: 0px 0 0 0;
+  margin: 0 auto;
+  /* padding: 15px; */
   background-color: #005281;
   opacity: 0.9;
   margin: 15px;
   color: white;
   border: white;
+  font-size: 1em;
 }
 
 label {
