@@ -31,8 +31,8 @@ function Index (props){
                 <label htmlFor="type_of_resume_sent">Type of resume sent</label>
                 <input type="text" name="type_of_resume_sent" placeholder="ATS or Design Resume"/>
                 
-                <label htmlFor="date_applied" id="cblabel"/>
-                <h3>Date Applied</h3><input type="date" name="date_applied" id="date_applied" placeholder="Date Applied"/>
+                <label htmlFor="date_applied">Date Applied</label>
+                <input type="date" name="date_applied" id="date_applied" placeholder="Date Applied"/>
                 
                 <label htmlFor="hiring_manager">Hiring Manager</label>
                 <input type="text" name="hiring_manager" placeholder="Name of Hiring Manager"/>
