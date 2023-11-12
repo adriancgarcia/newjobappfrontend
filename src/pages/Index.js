@@ -32,7 +32,7 @@ function Index (props){
                 <input type="text" name="type_of_resume_sent" placeholder="ATS or Design Resume"/>
                 
                 <label htmlFor="date_applied">Date Applied</label>
-                <input type="date" name="date_applied" id="date_applied" placeholder="Date Applied"/>
+                <input type="date" name="date_applied" placeholder="Date Applied"/>
                 
                 <label htmlFor="hiring_manager">Hiring Manager</label>
                 <input type="text" name="hiring_manager" placeholder="Name of Hiring Manager"/>
