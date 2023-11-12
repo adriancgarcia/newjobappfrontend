@@ -40,28 +40,28 @@ a, .jobButtons {
   padding: 5px;
   width: 100%;
   /* font-size: 1.5em; */
-  cursor: pointer;
 }
 
 .form {
   color: white;
+  /* width: 80%; */
   margin: 0 auto;
 }
 
 .form h3 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-/* #cblabel {
+.cblabel {
   display: block;
   padding-left: 15px;
   text-indent: -15px;
   color: white;
-} */
+}
 
-/* .date_applied {
+.date_applied {
   width: 15px;
   height: 15px;
   padding: 0;
@@ -69,12 +69,14 @@ a, .jobButtons {
   vertical-align: bottom;
   position: relative;
   top: -1px;
-  color: #606c76;
-  font-size: 1.3em;
-} */
+}
 
 .form {
   color: white;
+}
+
+input[type='color'], input[type='date'], input[type='datetime'], input[type='datetime-local'], input[type='email'], input[type='month'], input[type='number'], input[type='password'], input[type='search'], input[type='tel'], input[type='text'], input[type='url'], input[type='week'], input:not([type]), textarea, select {
+  width: 80%;
 }
 
 input[type='color'],
@@ -94,16 +96,16 @@ input:not([type]),
 textarea,
 select {
   color: white;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding: 20px;
-  width: 80%;
+  /* width: 80%; */
 }
 
 input[type=date] {
     color: #606c76;
     font-size: 1.5em;
     padding: 20px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     /* opacity: 0.6; */
 }
 
@@ -114,33 +116,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0.6;
   filter: invert(0.8);
   font-size: 1.3em;
-  color: #606c76;
+
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator:hover {
   opacity: 1
-}
-
-.form, .updateApp input[type=date] {
-  color: white;
-  font-size: 1.em;
-  padding: 20px;
-  /* text-transform: uppercase; */
-  /* opacity: 0.6; */
-}
-
-.form, .updateApp input [type="date"]::-webkit-calendar-picker-indicator {
-cursor: pointer;
-border-radius: 4px;
-margin-right: 2px;
-/* opacity: 0.6; */
-/* filter: invert(0.8); */
-/* font-size: 1.9em; */
-color: white;
-}
-
-.form, .updateApp input[type="date"]::-webkit-calendar-picker-indicator:hover {
-opacity: 1;
 }
 
 .applied input {
@@ -150,21 +130,21 @@ opacity: 1;
   vertical-align: bottom;
   position: relative;
   top: -1px;
-
 }
+
+/* #placeholder {
+  color: white;
+} */
 
 button {
   margin: 0 auto;
   /* padding: 15px; */
-  padding-bottom: 40px;
   background-color: #005281;
   opacity: 0.9;
   margin: 15px;
   color: white;
-  border: 1px solid #d1d1d1;
-  font-size: 1.3em;
-  text-transform: none;
-  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  border: white;
+  font-size: 1em;
 }
 
 label {
@@ -180,12 +160,8 @@ label {
 }
 
 .appliedJobs h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
-
-/* .appliedJobs input {
-  font-size: 1.5em;
-} */
 
 .updateApp {
   /* margin: 0 auto; */
