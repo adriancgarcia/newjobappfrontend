@@ -46,7 +46,8 @@ function Show (props){
                         <label htmlFor="type_of_resume_sent">Type of resume sent</label>
                         <input type="text" name="type_of_resume_sent" placeholder="ATS or Design Resume" defaultValue={post.type_of_resume_sent}/>
                         
-                        <h3>Date Applied</h3><input type="date" name="date_applied" placeholder="Date Applied" defaultValue={post.date_applied}/>
+                        <label htmlFor="date_applied">Date Applied</label>
+                        <input type="date" name="date_applied" placeholder="Date Applied" defaultValue={post.date_applied}/>
                         
                         <label htmlFor="hiring_manager">Hiring Manager</label>
                         <input type="text" name="hiring_manager" placeholder="Hiring Manager" defaultValue={post.hiring_manager}/>
@@ -57,7 +58,7 @@ function Show (props){
                         <label htmlFor="interview_status">Interview Status</label>
                         <input type="text" name="interview_status" placeholder="Interview Status" defaultValue={post.interview_status}/>
 
-                        <label htmlFor="applicatoin_origin">Origin of Job Posting</label>
+                        <label htmlFor="application_origin">Origin of Job Posting</label>
                         <input type="text" name="application_origin" placeholder="Where did you find application" defaultValue={post.application_origin}/>
                         
                         <h3>Did you send a thank you note?</h3><input type="checkbox" name="thankyou_sent" placeholder="Thank you note sent" defaultValue={post.thankyou_sent}/>
