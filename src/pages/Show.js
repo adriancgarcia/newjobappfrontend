@@ -65,15 +65,16 @@ function Show (props){
                         <br></br>
                         <button>Update Job</button>
                     </fieldset>
+                    <Form method="post" action={`/delete/${post.id}`}>
+                        <button>Delete Job</button>
+                    </Form>
                 </Form>
             </div>
             <Link to ="/">
-                <button>Back to Index</button>
+                <button className="backButton">Back to Index</button>
             </Link>
 
-            <Form method="post" action={`/delete/${post.id}`}>
-                <button>Delete Job</button>
-            </Form>
+            
         </div>
 
     );

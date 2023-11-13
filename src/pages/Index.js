@@ -49,7 +49,7 @@ function Index (props){
                 <label htmlFor="thankyou_sent" id="cblabel"/>
                 <h3>Did you send a thank you note?</h3><input type="checkbox" id="thankyou_sent" name="thankyou_sent" placeholder="Thank you note sent"/>
                 <br></br>
-                <button>Create New Application</button>
+                <button className="newButton">Create New Application</button>
             </fieldset>
         </Form>
     </div>

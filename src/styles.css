@@ -10,18 +10,18 @@ div {
   margin-top: 40px;
 }
 
-.column {
+/* .column {
     float: left;
     width: 50%;
-}
+} */
 
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,12 +33,16 @@ div {
   color: white;
   backdrop-filter: blur(20px);
   font-size: 30px;
-}
+} */
   
-a, .jobButtons {
+/* a, .jobButtons {
   margin: 0 auto;
   padding: 5px;
   width: 100%;
+} */
+
+form {
+  margin-bottom: 15px;
 }
 
 .form {
@@ -53,14 +57,14 @@ a, .jobButtons {
   margin-bottom: 0.5rem;
 }
 
-.cblabel {
+/* #cblabel {
   display: block;
   padding-left: 15px;
   text-indent: -15px;
   color: white;
-}
+} */
 
-.date_applied {
+/* .date_applied {
   width: 15px;
   height: 15px;
   padding: 0;
@@ -68,7 +72,7 @@ a, .jobButtons {
   vertical-align: bottom;
   position: relative;
   top: -1px;
-}
+} */
 
 input[type='color'],
 input[type='date'],
@@ -105,8 +109,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0.6;
   filter: invert(0.8);
   font-size: 1.3em;
-
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+  }
 
 .showForm {
   color: white;
@@ -120,11 +127,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-bottom: 0.5rem;
 }
 
-
-.showForm input[type="date"]::-webkit-calendar-picker-indicator:hover {
-  opacity: 1
-}
-
 .showForm input[type=date] {
   color: white;
   font-size: 1.5em;
@@ -136,41 +138,54 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 cursor: pointer;
 border-radius: 4px;
 margin-right: 2px;
-opacity: 0.6;
-filter: invert(0.8);
-font-size: 1.3em;
+/* opacity: 0.6; */
+/* filter: invert(0.8); */
+color: white;
+font-size: 1.em;
 
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator:hover {
-opacity: 1
+.showForm input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
 }
 
-.applied input {
+/* .applied input {
   width: 15px;
   height: 15px;
   margin: 0;
   vertical-align: bottom;
   position: relative;
   top: -1px;
-}
+} */
 
-#placeholder {
+/* #placeholder {
   color: white;
-}
+} */
 
 button {
-  margin: 0px 0 0 0;
+  margin: 0;
   background-color: #005281;
   opacity: 0.9;
   margin: 15px;
   color: white;
-  border: white;
+  border: solid 1px white;
+  border-radius: 6px;
+  font-size: .9em;
+  width: 200px;
 }
 
-label {
-  color: white;
+.backButton {
+  margin: 0;
+  margin-bottom: 40px;
 }
+
+.newButton {
+  width: 300px;
+}
+
+/* label {
+  color: white;
+} */
 
 .appliedJobs {
   border: 1px solid white;
@@ -184,11 +199,11 @@ label {
   font-size: 1.4em;
 }
 
-.updateApp {
-  /* margin: 0 auto; */
+/* .updateApp {
+  margin: 0 auto;
   margin-top: 40px;
-  /* width: 100%; */
-}
+  width: 100%;
+} */
 
   /* @media only screen and (max-width:600px) {
     div {
