@@ -95,7 +95,7 @@ select {
   padding: 20px;
 }
 
-input[type=date] {
+input[type="date"] {
     color: #606c76;
     font-size: 1.5em;
     padding: 20px;
@@ -127,7 +127,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   margin-bottom: 0.5rem;
 }
 
-.showForm input[type=date] {
+.showForm input[type="date"] {
   color: white;
   font-size: 1.5em;
   padding: 20px;
