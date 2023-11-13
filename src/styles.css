@@ -102,14 +102,48 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   border-radius: 4px;
   margin-right: 2px;
-  /* opacity: 0.6; */
+  opacity: 0.6;
   filter: invert(0.8);
   font-size: 1.3em;
 
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator:hover {
+.showForm {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.showForm h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+
+.showForm input[type="date"]::-webkit-calendar-picker-indicator:hover {
   opacity: 1
+}
+
+.showForm input[type=date] {
+  color: white;
+  font-size: 1.5em;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.showForm input[type="date"]::-webkit-calendar-picker-indicator {
+cursor: pointer;
+border-radius: 4px;
+margin-right: 2px;
+opacity: 0.6;
+filter: invert(0.8);
+font-size: 1.3em;
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+opacity: 1
 }
 
 .applied input {
