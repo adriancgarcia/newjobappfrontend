@@ -16,7 +16,7 @@ function Index (props){
     <div style={{textAlign: "center"}}>
         <h2>Create a New Job</h2>
         <Form method="post" action="/create">
-            <fieldset className="form">
+            <fieldset class="form">
                 <label htmlFor="position">Job Position</label>
                 <input type="text" name="position" placeholder="Job Position"/>
                 
@@ -31,8 +31,8 @@ function Index (props){
                 <label htmlFor="type_of_resume_sent">Type of resume sent</label>
                 <input type="text" name="type_of_resume_sent" placeholder="ATS or Design Resume"/>
                 
-                <label htmlFor="date_applied">Date Applied</label>
-                <input type="date" name="date_applied" placeholder="Date Applied"/>
+                <label htmlFor="date_applied" id="cblabel"/>
+                <h3>Date Applied</h3><input type="date" name="date_applied" id="date_applied" placeholder="Date Applied"/>
                 
                 <label htmlFor="hiring_manager">Hiring Manager</label>
                 <input type="text" name="hiring_manager" placeholder="Name of Hiring Manager"/>
@@ -41,15 +41,15 @@ function Index (props){
                 <input type="text" name="hiring_manager_email" placeholder="manager@email.com"/>
                 
                 <label htmlFor="interview_status">Interview Status</label>
-                <input type="text" name="interview_status" placeholder="1st, 2nd, or 3rd round"/>
+                <input type="text" name="interview_status" placeholder="1st round, 2nd round, 3rd round"/>
                 
                 <label htmlFor="application_origin">Origin of Job Posting</label>
-                <input type="text" name="application_origin" placeholder="Where was job posted?"/>
+                <input type="text" name="application_origin" placeholder="Where did you find job posting?"/>
                 
                 <label htmlFor="thankyou_sent" id="cblabel"/>
                 <h3>Did you send a thank you note?</h3><input type="checkbox" id="thankyou_sent" name="thankyou_sent" placeholder="Thank you note sent"/>
                 <br></br>
-                <button className="newButton">Create New Application</button>
+                <button>Create New Job Application</button>
             </fieldset>
         </Form>
     </div>

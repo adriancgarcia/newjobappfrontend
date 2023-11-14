@@ -117,7 +117,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 4px;
   margin-right: 2px;
   opacity: 0.6;
-  filter: invert(0.8);
+  filter: invert(1);
   font-size: 1.3em;
 }
 
@@ -149,7 +149,7 @@ cursor: pointer;
 border-radius: 4px;
 margin-right: 2px;
 /* opacity: 0.6; */
-/* filter: invert(0.8); */
+filter: invert();
 color: white;
 font-size: 1.em;
 
@@ -181,7 +181,7 @@ button {
   border: solid 1px white;
   border-radius: 6px;
   font-size: .9em;
-  width: 200px;
+  width: 300px;
 }
 
 .backButton {
